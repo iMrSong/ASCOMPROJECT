@@ -8,6 +8,11 @@ public class VideoData {
     int resourceId;
     String text;
 
+    /**
+     * コンストラクタ
+     * @param resourceId
+     * @param text
+     */
     public VideoData(int resourceId, String text){
         this.resourceId = resourceId;
         this.text = text;
