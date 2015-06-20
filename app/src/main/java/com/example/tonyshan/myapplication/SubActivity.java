@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by tonyshan on 15/06/14.
+ * サブ画面
  */
 public class SubActivity extends Activity{
 
@@ -39,7 +39,7 @@ public class SubActivity extends Activity{
                 // 取得したタイトルをToastに表示する 
                 //  Toast.makeText(getApplicationContext(),"Text" + item.getText(), Toast.LENGTH_SHORT).show();
 
-                // クッリクを画面遷移
+                // インテントを設定
                 Intent intent = new Intent(getApplicationContext(), ThirdActivity.class);
 
                 intent.putExtra("textpath", item.getText());

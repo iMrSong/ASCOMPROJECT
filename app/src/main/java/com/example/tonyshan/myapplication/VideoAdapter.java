@@ -12,7 +12,7 @@ import java.util.List;
 
 
 /**
- * Created by tonyshan on 15/06/13.
+ * ビデオアダプター
  */
 public class VideoAdapter extends BaseAdapter{
 
@@ -28,8 +28,8 @@ public class VideoAdapter extends BaseAdapter{
 
     /**
      * コンストラクタ
-     * @param context
-     * @param list
+     * @param context コンテンツ
+     * @param list リスとビュー
      */
     public VideoAdapter(Context context, List<VideoData> list){
 

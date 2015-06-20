@@ -8,7 +8,9 @@ import android.view.View;
 import android.widget.Button;
 import android.content.Intent;
 
-
+/**
+ * メイン画面
+ */
 public class MainActivity extends ActionBarActivity {
 
     @Override

@@ -1,7 +1,7 @@
 package com.example.tonyshan.myapplication;
 
 /**
- * Created by tonyshan on 15/06/07.
+ * VideoDataの構造体
  */
 public class VideoData {
 
