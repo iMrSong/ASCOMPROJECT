@@ -10,8 +10,8 @@ public class VideoData {
 
     /**
      * コンストラクタ
-     * @param resourceId
-     * @param text
+     * @param resourceId リソースID
+     * @param text テキスト
      */
     public VideoData(int resourceId, String text){
         this.resourceId = resourceId;

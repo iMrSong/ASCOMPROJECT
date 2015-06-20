@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 /**
- * Created by tonyshan on 15/06/14.
+ * リストビューから遷移した画面
  */
 public class ThirdActivity extends Activity{
 
@@ -16,10 +16,11 @@ public class ThirdActivity extends Activity{
         setContentView(R.layout.third);
 
         Intent intent = getIntent();
+        // タイトルを取得
         String title = intent.getStringExtra("textpath");
 
         TextView textView = (TextView)findViewById(R.id.title);
-
+        // タイトルを設定
         textView.setText(title);
 
     }

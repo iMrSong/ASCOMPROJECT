@@ -33,7 +33,7 @@ public class SubActivity extends Activity{
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 ListView listView = (ListView)parent;
-
+                // クリックした位置を取得
                 VideoData item = (VideoData)listView.getItemAtPosition(position);
 
                 // 取得したタイトルをToastに表示する 

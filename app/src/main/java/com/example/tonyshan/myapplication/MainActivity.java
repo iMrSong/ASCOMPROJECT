@@ -14,12 +14,15 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        // メイン画面のレイアウトを設定
         setContentView(R.layout.activity_main);
 
     Button VideoListButton = (Button)findViewById(R.id.button2);
+    // ボタンをクリックのイベント
     VideoListButton.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {
+           // 画面を遷移
            Intent intent = new Intent();
             intent.setClass(MainActivity.this,SubActivity.class);
             startActivity(intent);
