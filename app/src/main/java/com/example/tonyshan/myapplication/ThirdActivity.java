@@ -3,6 +3,7 @@ package com.example.tonyshan.myapplication;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
 
 /**
@@ -23,6 +24,13 @@ public class ThirdActivity extends Activity{
         // タイトルを設定
         textView.setText(title);
 
+    }
+
+    /**
+     * Test Method
+     */
+    public void testMethod(){
+        Log.d("Test", "Test Source Code From Local Song.");
     }
 
 }
